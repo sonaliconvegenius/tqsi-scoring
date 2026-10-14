@@ -1,0 +1,53 @@
+{
+  "version": "Annex C of T-QSI Policy v1.0 (14 October 2026); source: Translation lead guidance (13 October 2026)",
+  "bands": {
+    "hi_1_5": "Hindi, Grades 1-5",
+    "hi_6_10": "Hindi, Grades 6-10",
+    "te": "Telugu, all grades"
+  },
+  "rules": [
+    {
+      "text": "Units (cm, m, km, g, kg, mL, L)",
+      "tokens": ["cm", "m", "km", "g", "kg", "mL", "L"],
+      "hi_1_5": "translate",
+      "hi_6_10": "keep",
+      "te": "translate"
+    },
+    {
+      "text": "a.m. / p.m.",
+      "tokens": ["a.m.", "p.m."],
+      "hi_1_5": "translate",
+      "hi_6_10": "keep",
+      "te": "keep"
+    },
+    {
+      "text": "₹",
+      "tokens": ["₹"],
+      "hi_1_5": "translate",
+      "hi_6_10": "keep",
+      "te": "keep"
+    },
+    {
+      "text": "Rs",
+      "tokens": ["Rs"],
+      "hi_1_5": "translate",
+      "hi_6_10": "keep",
+      "te": "translate"
+    },
+    {
+      "text": "sq. m",
+      "tokens": ["sq. m"],
+      "hi_1_5": "translate",
+      "hi_6_10": "keep",
+      "te": "translate"
+    },
+    {
+      "text": "Roman numerals used to number lists (i, ii, iii)",
+      "tokens": ["i", "ii", "iii"],
+      "hi_1_5": "keep",
+      "hi_6_10": "keep",
+      "te": "keep",
+      "note": "Annex C: kept in every language and grade. Not yet confirmed by the Translation lead."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tqsi-scoring",
+  "version": "0.2.0",
+  "description": "Latest Claude T-QSI tool with Output V2.0 evaluator artifacts, suggested corrections and document revision comparisons.",
+  "skills": "./skills/",
+  "requires_local_executor": true,
+  "interface": {
+    "displayName": "T-QSI",
+    "shortDescription": "Evaluate translations and review corrections"
+  }
+}
