@@ -1,0 +1,348 @@
+{
+  "r1_version": "Annex C of T-QSI Policy v1.0 (14 October 2026); source: Translation lead (Priti Kushwaha), 13 October 2026",
+  "items": [
+    {
+      "item_id": "Q111-HI",
+      "lang": "hi",
+      "grade": 6,
+      "image": true,
+      "option_count": {
+        "source": 4,
+        "target": 5
+      },
+      "blank_count": {
+        "source": 0,
+        "target": 0
+      },
+      "numbers": {
+        "source": [],
+        "target": []
+      },
+      "maths_differs": [],
+      "script_issues": [],
+      "display_issues": [],
+      "r1_band": "hi_6_10",
+      "r1_translate_found": [],
+      "english_not_in_source_or_allowed": [],
+      "english_in_target": []
+    },
+    {
+      "item_id": "Q112-HI",
+      "lang": "hi",
+      "grade": 6,
+      "image": false,
+      "option_count": {
+        "source": 4,
+        "target": 4
+      },
+      "blank_count": {
+        "source": 0,
+        "target": 0
+      },
+      "numbers": {
+        "source": [
+          "1",
+          "3"
+        ],
+        "target": [
+          "1",
+          "3"
+        ]
+      },
+      "maths_differs": [],
+      "script_issues": [
+        {
+          "part": "option 4",
+          "issue": "no target-script characters"
+        }
+      ],
+      "display_issues": [],
+      "r1_band": "hi_6_10",
+      "r1_translate_found": [],
+      "english_not_in_source_or_allowed": [],
+      "english_in_target": [
+        "D"
+      ]
+    },
+    {
+      "item_id": "Q113-HI",
+      "lang": "hi",
+      "grade": 6,
+      "image": true,
+      "option_count": {
+        "source": 0,
+        "target": 0
+      },
+      "blank_count": {
+        "source": 0,
+        "target": 0
+      },
+      "numbers": {
+        "source": [
+          "2",
+          "3"
+        ],
+        "target": []
+      },
+      "maths_differs": [],
+      "script_issues": [],
+      "display_issues": [],
+      "r1_band": "hi_6_10",
+      "r1_translate_found": [],
+      "english_not_in_source_or_allowed": [],
+      "english_in_target": []
+    },
+    {
+      "item_id": "Q114-HI",
+      "lang": "hi",
+      "grade": 6,
+      "image": false,
+      "option_count": {
+        "source": 4,
+        "target": 4
+      },
+      "blank_count": {
+        "source": 1,
+        "target": 0
+      },
+      "numbers": {
+        "source": [
+          "10",
+          "2",
+          "5"
+        ],
+        "target": [
+          "2",
+          "5"
+        ]
+      },
+      "maths_differs": [],
+      "script_issues": [],
+      "display_issues": [],
+      "r1_band": "hi_6_10",
+      "r1_translate_found": [],
+      "english_not_in_source_or_allowed": [],
+      "english_in_target": [
+        "C"
+      ]
+    },
+    {
+      "item_id": "Q115-HI",
+      "lang": "hi",
+      "grade": 6,
+      "image": false,
+      "option_count": {
+        "source": 4,
+        "target": 4
+      },
+      "blank_count": {
+        "source": 0,
+        "target": 0
+      },
+      "numbers": {
+        "source": [
+          "3",
+          "4",
+          "6",
+          "8"
+        ],
+        "target": [
+          "3",
+          "4",
+          "6",
+          "8"
+        ]
+      },
+      "maths_differs": [],
+      "script_issues": [],
+      "display_issues": [],
+      "r1_band": "hi_6_10",
+      "r1_translate_found": [],
+      "english_not_in_source_or_allowed": [],
+      "english_in_target": [
+        "B"
+      ]
+    },
+    {
+      "item_id": "Q116-HI",
+      "lang": "hi",
+      "grade": 6,
+      "image": false,
+      "option_count": {
+        "source": 4,
+        "target": 4
+      },
+      "blank_count": {
+        "source": 0,
+        "target": 0
+      },
+      "numbers": {
+        "source": [
+          "2",
+          "6",
+          "8"
+        ],
+        "target": [
+          "2",
+          "6",
+          "8"
+        ]
+      },
+      "maths_differs": [],
+      "script_issues": [],
+      "display_issues": [],
+      "r1_band": "hi_6_10",
+      "r1_translate_found": [],
+      "english_not_in_source_or_allowed": [],
+      "english_in_target": [
+        "D",
+        "Divide",
+        "and",
+        "both",
+        "by",
+        "denominator",
+        "numerator",
+        "of",
+        "the"
+      ]
+    },
+    {
+      "item_id": "Q117-HI",
+      "lang": "hi",
+      "grade": 6,
+      "image": false,
+      "option_count": {
+        "source": 4,
+        "target": 4
+      },
+      "blank_count": {
+        "source": 0,
+        "target": 0
+      },
+      "numbers": {
+        "source": [
+          "2",
+          "4",
+          "8"
+        ],
+        "target": [
+          "2",
+          "4",
+          "8"
+        ]
+      },
+      "maths_differs": [],
+      "script_issues": [],
+      "display_issues": [],
+      "r1_band": "hi_6_10",
+      "r1_translate_found": [],
+      "english_not_in_source_or_allowed": [],
+      "english_in_target": [
+        "C"
+      ]
+    },
+    {
+      "item_id": "Q118-HI",
+      "lang": "hi",
+      "grade": 6,
+      "image": false,
+      "option_count": {
+        "source": 4,
+        "target": 4
+      },
+      "blank_count": {
+        "source": 0,
+        "target": 0
+      },
+      "numbers": {
+        "source": [
+          "10",
+          "2",
+          "5"
+        ],
+        "target": [
+          "10",
+          "2",
+          "5"
+        ]
+      },
+      "maths_differs": [],
+      "script_issues": [],
+      "display_issues": [],
+      "r1_band": "hi_6_10",
+      "r1_translate_found": [],
+      "english_not_in_source_or_allowed": [],
+      "english_in_target": [
+        "A"
+      ]
+    },
+    {
+      "item_id": "Q119-HI",
+      "lang": "hi",
+      "grade": 6,
+      "image": false,
+      "option_count": {
+        "source": 4,
+        "target": 4
+      },
+      "blank_count": {
+        "source": 0,
+        "target": 0
+      },
+      "numbers": {
+        "source": [
+          "3",
+          "4"
+        ],
+        "target": [
+          "3",
+          "4"
+        ]
+      },
+      "maths_differs": [],
+      "script_issues": [],
+      "display_issues": [],
+      "r1_band": "hi_6_10",
+      "r1_translate_found": [],
+      "english_not_in_source_or_allowed": [],
+      "english_in_target": [
+        "D"
+      ]
+    },
+    {
+      "item_id": "Q120-HI",
+      "lang": "hi",
+      "grade": 6,
+      "image": false,
+      "option_count": {
+        "source": 4,
+        "target": 4
+      },
+      "blank_count": {
+        "source": 0,
+        "target": 0
+      },
+      "numbers": {
+        "source": [
+          "3",
+          "4",
+          "6"
+        ],
+        "target": [
+          "3",
+          "4",
+          "6"
+        ]
+      },
+      "maths_differs": [],
+      "script_issues": [],
+      "display_issues": [],
+      "r1_band": "hi_6_10",
+      "r1_translate_found": [],
+      "english_not_in_source_or_allowed": [],
+      "english_in_target": [
+        "C"
+      ]
+    }
+  ]
+}

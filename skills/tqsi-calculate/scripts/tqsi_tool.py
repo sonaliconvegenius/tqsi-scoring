@@ -278,6 +278,8 @@ def cmd_score(args):
                 continue
             kept.append({**f, "verified": True})
 
+        if any(f['test'] == 'E1' for f in kept):
+            kept = [f for f in kept if f['test'] == 'E1']
         scored_item = score_item(item_id, kept, j.get("undecidable", []),
                                  has_image(item), j.get("sen_flag", False))
         scored_item["findings"] = kept
@@ -295,6 +297,8 @@ def cmd_score(args):
             "input_hash_sha256": hashlib.sha256(Path(args.items).read_bytes()).hexdigest(),
         },
     }
+    from calculate_batch import calculate_batch
+    report['batch_calculation'] = calculate_batch(report, list(items.values()))
     json.dump(report, sys.stdout, ensure_ascii=False, indent=2)
     print()
     for s in report_items:

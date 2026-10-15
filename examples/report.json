@@ -1,0 +1,249 @@
+{
+  "items": [
+    {
+      "item_id": "Q111-HI",
+      "error_score": 0,
+      "band": "0",
+      "rating": "not rated",
+      "flags": [
+        "IMG"
+      ],
+      "findings": [
+        {
+          "test": "E1",
+          "field": "question",
+          "source_excerpt": "Which pair of fractions is shown by the shaded parts?",
+          "target_excerpt": "रंगे हुए भाग भिन्नों की कौन-सी जोड़ी दिखाते हैं?",
+          "defect": "Source has four options; target has five. E1 stops further checks.",
+          "rewrite": null,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "item_id": "Q112-HI",
+      "error_score": 0,
+      "band": "0",
+      "rating": "not rated",
+      "flags": [],
+      "findings": [
+        {
+          "test": "E3",
+          "field": "option 4",
+          "source_excerpt": "2/6",
+          "target_excerpt": "1/6",
+          "defect": "Source key D is correct because 2/6 = 1/3. Target D becomes 1/6; none of the target options equals 1/3.",
+          "rewrite": null,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "item_id": "Q113-HI",
+      "error_score": 0,
+      "band": "0",
+      "rating": "not rated",
+      "flags": [
+        "IMG"
+      ],
+      "findings": [
+        {
+          "test": "E5",
+          "field": "question",
+          "source_excerpt": "equivalent to 2/3",
+          "target_excerpt": "बराबर मान वाला भिन्न",
+          "defect": "The reference fraction 2/3 is omitted, so the learner cannot know which fraction the picture must equal. Missing source images are a separate coverage limitation.",
+          "rewrite": null,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "item_id": "Q114-HI",
+      "error_score": 0,
+      "band": "0",
+      "rating": "not rated",
+      "flags": [],
+      "findings": [
+        {
+          "test": "E1",
+          "field": "question",
+          "source_excerpt": "2/5 = ___/10",
+          "target_excerpt": "2/5 = �/�",
+          "defect": "One source blank becomes zero target blanks; the placeholder and denominator are corrupted. E1 takes precedence and stops E2, preventing double counting.",
+          "rewrite": null,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "item_id": "Q115-HI",
+      "error_score": 0,
+      "band": "0",
+      "rating": "not rated",
+      "flags": [],
+      "findings": [
+        {
+          "test": "E4",
+          "field": "option 2",
+          "source_excerpt": "Multiply both numerator and denominator by 2.",
+          "target_excerpt": "ऊपर और नीचे की दोनों संख्याओं में 2 जोड़ते हैं।",
+          "defect": "Multiplication becomes addition in option B. Count this operation substitution once under E4, not again under E3.",
+          "rewrite": null,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "item_id": "Q116-HI",
+      "error_score": 75,
+      "band": "75-99",
+      "rating": "Good",
+      "flags": [],
+      "findings": [
+        {
+          "test": "E8",
+          "field": "question",
+          "source_excerpt": "Divide both the numerator and denominator of 6/8 by 2.",
+          "target_excerpt": "Divide both the numerator and denominator of 6/8 by 2.",
+          "defect": "One distinct English instruction phrase remains untranslated; mathematical labels and numeric expressions are exempt.",
+          "rewrite": null,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "item_id": "Q117-HI",
+      "error_score": 75,
+      "band": "75-99",
+      "rating": "Good",
+      "flags": [],
+      "findings": [
+        {
+          "test": "E7",
+          "field": "question",
+          "source_excerpt": "Mansi",
+          "target_excerpt": "रीमा",
+          "defect": "Mansi becomes Reema consistently in the stem and option A. One name-substitution root cause is counted once; the comparison and answer C still work.",
+          "rewrite": null,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "item_id": "Q118-HI",
+      "error_score": 95,
+      "band": "75-99",
+      "rating": "Good",
+      "flags": [],
+      "findings": [
+        {
+          "test": "E9",
+          "field": "question",
+          "source_excerpt": "Flowers grow",
+          "target_excerpt": "फूल उगता हैं",
+          "defect": "Wrong number agreement: उगता should be उगते. One affected word; mathematical meaning unchanged.",
+          "rewrite": null,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "item_id": "Q119-HI",
+      "error_score": 95,
+      "band": "75-99",
+      "rating": "Good",
+      "flags": [],
+      "findings": [
+        {
+          "test": "E9",
+          "field": "question",
+          "source_excerpt": "Which fraction",
+          "target_excerpt": "कौन-सी भिन्न",
+          "defect": "Wrong gender agreement: कौन-सी should be कौन-सा. One affected word; mathematical meaning unchanged.",
+          "rewrite": null,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "item_id": "Q120-HI",
+      "error_score": 100,
+      "band": "100",
+      "rating": "Good",
+      "flags": [],
+      "findings": []
+    }
+  ],
+  "set_report": {
+    "items_scored": 10,
+    "items_n_a": 0,
+    "bands": {
+      "100": 1,
+      "75-99": 4,
+      "1-74": 0,
+      "0": 5
+    },
+    "ratings": {
+      "Good": 5,
+      "Fair": 0,
+      "Poor": 0
+    },
+    "flags": {
+      "IMG": 2,
+      "SEN": 0,
+      "UND": 0
+    },
+    "mean_error_score": 44.0
+  },
+  "discarded_findings": [],
+  "run_record": {
+    "r1_version": "Annex C of T-QSI Policy v1.0 (14 October 2026); source: Translation lead (Priti Kushwaha), 13 October 2026",
+    "ai_model": "Prior evidence replay; no new AI judgment",
+    "ai_instructions_version": "classification-2026-10-15",
+    "input_hash_sha256": "74ec20587a98bc8c9d6d4847ca0e3fb0b1e213b31a7593bf30eca51c9d291606"
+  },
+  "batch_calculation": {
+    "calculation_version": "1.0.0",
+    "policy_origin": "T-QSI item rules plus direct user-approved overall decision rule, 15 October 2026",
+    "overall": {
+      "total_units": 10,
+      "scored_units": 10,
+      "missing_item_ids": [],
+      "unresolved_item_ids": [],
+      "severity_counts": {
+        "Critical": 5,
+        "Major": 2,
+        "Minor": 2
+      },
+      "raw_mean_score": 44.0,
+      "overall_decision_score": 44.0,
+      "serious_error_cap": 59,
+      "cap_reduced_score": false,
+      "coverage_complete": true,
+      "decision": "NO GO",
+      "automatic_pass": false
+    },
+    "by_language": {
+      "hi": {
+        "total_units": 10,
+        "scored_units": 10,
+        "missing_item_ids": [],
+        "unresolved_item_ids": [],
+        "severity_counts": {
+          "Critical": 5,
+          "Major": 2,
+          "Minor": 2
+        },
+        "raw_mean_score": 44.0,
+        "overall_decision_score": 44.0,
+        "serious_error_cap": 59,
+        "cap_reduced_score": false,
+        "coverage_complete": true,
+        "decision": "NO GO",
+        "automatic_pass": false
+      }
+    },
+    "formula": "Item: Critical => 0; otherwise max(0,100-25*Major-5*Minor). Raw mean: sum of scored items / scored count. Overall: min(raw mean,59) if any confirmed Major/Critical, otherwise raw mean. Missing/n-a excluded and disclosed. No automatic pass."
+  }
+}

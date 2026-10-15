@@ -1,5 +1,5 @@
 {
-  "name": "tqsi-scoring",
-  "version": "0.2.0",
-  "description": "T-QSI Policy v1.0 assessment tool: scores translated PAL questions (English to Hindi/Telugu) with error scores, quality ratings and flags. Built from the 14 Oct 2026 policy; section 8 validation not yet run."
+  "name": "tqsi-calculation",
+  "version": "1.0.1",
+  "description": "T-QSI assessment and calculation with Major/Critical whole-set cap below60, per-language decisions and evaluator artifacts."
 }

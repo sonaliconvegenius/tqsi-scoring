@@ -1,11 +1,11 @@
 {
-  "name": "tqsi-scoring",
-  "version": "0.2.0",
-  "description": "Latest Claude T-QSI tool with Output V2.0 evaluator artifacts, suggested corrections and document revision comparisons.",
+  "name": "tqsi-calculation",
+  "version": "1.0.1",
+  "description": "T-QSI assessment and calculation with Major/Critical whole-set cap below60, per-language decisions and evaluator artifacts.",
   "skills": "./skills/",
   "requires_local_executor": true,
   "interface": {
-    "displayName": "T-QSI",
-    "shortDescription": "Evaluate translations and review corrections"
+    "displayName": "T-QSI Calculation",
+    "shortDescription": "Score translations and flag serious errors as NO GO"
   }
 }

@@ -1,3 +1,2 @@
-/assets/
-/examples/
-/output-verification.json
+__pycache__/
+*.py[cod]

@@ -1,0 +1,39 @@
+{
+  "plugin": "tqsi-calculation",
+  "plugin_version": "1.0.1",
+  "delivery_status": "ARTIFACTS VERIFIED",
+  "source_items_sha256": "74ec20587a98bc8c9d6d4847ca0e3fb0b1e213b31a7593bf30eca51c9d291606",
+  "item_count": 10,
+  "overall": {
+    "total_units": 10,
+    "scored_units": 10,
+    "missing_item_ids": [],
+    "unresolved_item_ids": [],
+    "severity_counts": {
+      "Critical": 5,
+      "Major": 2,
+      "Minor": 2
+    },
+    "raw_mean_score": 44.0,
+    "overall_decision_score": 44.0,
+    "serious_error_cap": 59,
+    "cap_reduced_score": false,
+    "coverage_complete": true,
+    "decision": "NO GO",
+    "automatic_pass": false
+  },
+  "required_artifacts": [
+    {
+      "path": "C:\\Users\\sonal\\OneDrive\\Desktop\\Worsheets - Mathematics\\Cybersecurity - WS\\Game - CS\\tqsi-calculation\\examples\\checked-delivery\\evaluator-report.html",
+      "bytes": 20006,
+      "sha256": "6686a348533052e2e89da551dd85f1a103580bbb9da3a01cd627c167f1bdd3ef"
+    },
+    {
+      "path": "C:\\Users\\sonal\\OneDrive\\Desktop\\Worsheets - Mathematics\\Cybersecurity - WS\\Game - CS\\tqsi-calculation\\examples\\checked-delivery\\evaluator-results.json",
+      "bytes": 18375,
+      "sha256": "7f659b623729cae7bed2814c133db6cf84047233053ad465848d983a15ef452e"
+    }
+  ],
+  "host_installation_verified": false,
+  "note": "Local output checks succeeded. Host installation, skill invocation and rendered preview must also be confirmed in the target Claude environment."
+}
